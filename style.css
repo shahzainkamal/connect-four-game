@@ -1,0 +1,124 @@
+body {
+  background-color: rgb(167, 79, 250);
+  box-sizing: border-box;
+}
+.section-one {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  gap: 15%;
+}
+.section-two {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+.image-one {
+  position: absolute;
+  top: 630px;
+  left: 605px;
+}
+.image-two {
+  position: absolute;
+  top: 635px;
+  left: 693px;
+}
+.image-three {
+  position: absolute;
+  top: 545px;
+  left: 782px;
+}
+.image-four {
+  position: absolute;
+  top: 455px;
+  left: 782px;
+}
+.image-five {
+  position: absolute;
+  top: 365px;
+  left: 782px;
+}
+.image-six {
+  position: absolute;
+  top: 635px;
+  left: 517px;
+}
+.image-seven {
+  position: absolute;
+  top: 635px;
+  left: 781px;
+}
+.image-eight {
+  position: absolute;
+  top: 540px;
+  left: 605px;
+}
+.image-nine {
+  position: absolute;
+  top: 540px;
+  left: 693px;
+}
+
+button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+}
+.player-one {
+  background: white;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 8px solid black;
+  border-radius: 20px;
+
+  justify-content: center;
+  display: flex;
+}
+.player-two {
+  background: white;
+  padding: 0;
+  margin: 0;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 8px solid black;
+  border-radius: 20px;
+
+  justify-content: center;
+  display: flex;
+}
+.marker-image {
+  position: absolute;
+  left: 65%;
+  top: 15%;
+}
+.ball-one{
+  position: absolute;
+  top: 16%;
+  left: 18%;
+}
+.ball-two{
+  position: absolute;
+  top: 16%;
+  right: 18%;
+}
+.turn{
+  position: absolute;
+  top: 80%;
+  left: 42%;
+}
+.turn p{
+  position: absolute;
+  top: 14%;
+  left: 20%;
+  font-size: 15px;
+}
